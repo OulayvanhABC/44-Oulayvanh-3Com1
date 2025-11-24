@@ -4,53 +4,53 @@
 		#ໃນການໃຊງານນັ້ນ ມັນເຮັດວຽກໂດຍການອ່ານການປ້ອນຂໍ້ມູນ (ເຊັ່ນ: ແສງຈາກເຊັນເຊີ ຫຼື ການກົດປຸ່ມ) ແລະ ປ່ຽນເປັນການສົ່ງອອກ (ເຊັ່ນ: ການເປີດໄຟ LED ຫຼື ການເດີນຂອງມໍເຕີ) , ໂດຍອີງຕາມຄໍາສັ່ງ (sketch) ທີ່ບັນທຶກໄວ້ໃນໜ່ວຍຄວາມຈຳຂອງມັນ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການສ້າງລະບົບໄຟສັນຍານຈາລະຈອນແບບງ່າຍດາຍ (Simple Traffic Light System)
 ![[Arduino_Uno_Board.png]](./images/Arduino_Uno_Board.png)
-![[Pasted image 20251123220320.png]]
+![[Arduino_Uno_Board_Diagram.png]](./images/Arduino_Uno_Board_Diagram.png)
 2. Breadboards
 		#Breadboard ແມ່ນແຜງພລາສຕິກທີ່ມີຮູ, ໃຊ້ສຳລັບການສ້າງແບບຈຳລອງ (prototype) ວົງຈອນເອເລັກໂຕຣນິກຊົ່ວຄາວ. ມັນຊ່ວຍໃຫ້ສາມາດເຊື່ອມຕໍ່ອຸປະກອນຕ່າງໆໄດ້ໂດຍບໍ່ຈຳເປັນຕ້ອງມີການເຊື່ອມ ຫຼື ບັດກີ.
 		#ວິທີການເຮັດວຽກ ຮູຕ່າງໆໃນ breadboard ຖືກເຊື່ອມຕໍ່ກັນທາງດ້ານໄຟຟ້າ: ຫ້າຮູໃນແຕ່ລະຖັນຕາມລວງນອນຖືກເຊື່ອມຕໍ່ກັນ (ສຳລັບອຸປະກອນ), ແລະ ລາງພະລັງງານຕາມລວງຍາວຖືກເຊື່ອມຕໍ່ກັນ. ທ່ານສາມາດສ້າງວົງຈອນໂດຍການປັກສາຍໃສ່ຮູເຫຼົ່ານີ້.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການສ້າງວົງຈອນ LED ແລະ Resistor ເທິງ Breadboard
-![[Pasted image 20251029000629.png]]
-![[Pasted image 20251123220419.png]]
+![[Breadboards.png]](./images/Breadboards.png)
+![[Breadboards_Diagram.png]](./images/Breadboards_Diagram.png)
 
 3. USB cable
 		#ສາຍUSB(USB Cable) ແມ່ນໃຊ້ສຳລັບເຊື່ອມຕໍ່ Arduino Uno ກັບຄອມພິວເຕີ. ປົກກະຕິແລ້ວມັນຈະເປັນສາຍປະເພດ USB A ຫາ USB B.
-		#ວິທີການເຮັດວຽກ ສາຍ USB ເຮັດສອງໜ້າທີ່ຫຼັກຄື: **1) ສະໜອງພະລັງງານ** 5V ໃຫ້ກັບ Arduino Uno. **2) ການສື່ສານຂໍ້ມູນ:** ສ້າງຊ່ອງທາງການສື່ສານແບບ serial ເພື່ອອັບໂຫລດລະຫັດ ແລະ ສົ່ງຂໍ້ມູນ serial ກັບຄືນໄປຫາຄອມພິວເຕີ.
+		#ວິທີການເຮັດວຽກ ສາຍ USB ເຮັດສອງໜ້າທີ່ຫຼັກຄື: 1) ສະໜອງພະລັງງານ** 5V ໃຫ້ກັບ Arduino Uno. 2) ການສື່ສານຂໍ້ມູນ: ສ້າງຊ່ອງທາງການສື່ສານແບບ serial ເພື່ອອັບໂຫລດລະຫັດ ແລະ ສົ່ງຂໍ້ມູນ serial ກັບຄືນໄປຫາຄອມພິວເຕີ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການອັບໂຫລດໂຄງການ "Blink" ໄປຫາ Arduino Uno
-		![[Pasted image 20251029000919.png]]
-		![[Pasted image 20251123220502.png]]
+![[USB_cable.png]](./images/USB_cable.png)
+![[USB_cable_Diagram.png]](./images/USB_cable_Diagram.png)		
 #### Wiring & Connectors
 4. Jumper wires (male-to-male)
 		#Jumperwires (Male-to-Male) ແມ່ນສາຍທີ່ມີເຂັມປັກຢູ່ທັງສອງສົ້ນ, ຖືກໃຊ້ເພື່ອສ້າງການເຊື່ອມຕໍ່ທາງດ້ານໄຟຟ້າຊົ່ວຄາວລະຫວ່າງສອງຈຸດໃນວົງຈອນ.
 		#ວິທີການເຮັດວຽກ ເຂັມປັກຂອງສາຍເຫຼົ່ານີ້ສາມາດສຽບເຂົ້າໄປໃນຮູຂອງ breadboard, ຫຼື ໃສ່ໃນເຕົ້າສຽບ female headers ຂອງໂມດູນອື່ນໆ ເພື່ອສົ່ງສັນຍານ ຫຼື ພະລັງງານ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການເຊື່ອມຕໍ່ Pin ຕ່າງໆໃນ Breadboard
-		![[Pasted image 20251029001503.png]]
+![[Jumper_wires(male_to_male).png]](./images/Jumper_wires(male_to_male).png)
 5.  Jumper wires (male-to-female)
 		#Jumperwires (Male-to-Female)ມີເຂັມປັກຢູ່ສົ້ນໜຶ່ງ (Male) ແລະ ຫົວເຊື່ອມຕໍ່ແບບເຕົ້າສຽບຢູ່ອີກສົ້ນໜຶ່ງ (Female).
 		#ວິທີການເຮັດວຽກ ປາຍ Female ທີ່ເປັນເຕົ້າສຽບສາມາດສຽບເຂົ້າໄປໃນເຂັມປັກ (pins) ຂອງ Arduino ຫຼື ໂມດູນເຊັນເຊີໄດ້ໂດຍກົງ, ແລະ ປາຍ Male ສາມາດສຽບໃສ່ Breadboard ເພື່ອສ້າງການເຊື່ອມຕໍ່ທີ່ຍືດຫຍຸ່ນ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການເຊື່ອມຕໍ່ເຊັນເຊີ DHT11 (ມີ Pin Header) ໄປຫາ Breadboard
-		![[Pasted image 20251029001525.png]]
+![[Jumper_wires(male_to_female).png]](./images/Jumper_wires(male_to_female).png)
 6.  Jumper wires (female-to-female)
 		#Jumperwires (Female-to-Female) ແມ່ນສາຍທີ່ມີຫົວເຊື່ອມຕໍ່ແບບເຕົ້າສຽບຢູ່ທັງສອງສົ້ນ. ມັນຖືກໃຊ້ເພື່ອເຊື່ອມຕໍ່ Pin ທີ່ເປັນເຂັມປັກ (Male Pins) ສອງອັນເຂົ້າກັນ.
 		#ວິທີການເຮັດວຽກ ພວກມັນມີປະໂຫຍດໃນການເຊື່ອມຕໍ່ Pin headers ຂອງໂມດູນສອງອັນເຂົ້າກັນໂດຍກົງ, ໂດຍບໍ່ຕ້ອງໃຊ້ breadboard. ມັນສ້າງການເຊື່ອມຕໍ່ໄຟຟ້າທີ່ປອດໄພລະຫວ່າງສອງຈຸດທີ່ເປັນເຂັມປັກ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການເຊື່ອມຕໍ່ໂມດູນ RFID ກັບ Pin Headers ຂອງ Arduino Uno
-		![[Pasted image 20251029001536.png]]
+![[Jumper_wires(female_to_female).png]](./images/Jumper_wires(female_to_female).png)
 7. 9V Battery Connector
 		#9VBatteryConnector ແມ່ນອຸປະກອນທີ່ເຊື່ອມຕໍ່ແບັດເຕີຣີ 9 ໂວນເຂົ້າກັບປລັກສຽບໄຟ DC (DC barrel jack) ຂອງ Arduino Uno.
 		#ວິທີການເຮັດວຽກ ມັນອະນຸຍາດໃຫ້ Arduino Uno ໄດ້ຮັບພະລັງງານຈາກແບັດເຕີຣີ 9V ຜ່ານປລັກ DC, ເຮັດໃຫ້ໂຄງການສາມາດໃຊ້ງານໄດ້ຢ່າງເປັນເອກະລາດໂດຍບໍ່ຕ້ອງເຊື່ອມຕໍ່ກັບຄອມພິວເຕີ (Standalone).
 		#ຕົວຢ່າງການນໍາໃຊ້: ການໃຫ້ພະລັງງານແກ່ໂຄງການທີ່ໃຊ້ງານຢູ່ (Standalone Project Power Supply)
-		![[Pasted image 20251029001643.png]]
+![[9V_Battery_Connector.png]](./images/9V_Battery_Connector.png)
 #### Basic Components 
 
 8. **LEDs** (Red: 5, Yellow: 5, Blue: 5, RGB: 1) 
 		#LEDs (Light Emitting Diodes) ແມ່ນອຸປະກອນ semiconductor ທີ່ປ່ອຍແສງເມື່ອກະແສໄຟຟ້າໄຫຼຜ່ານມັນໃນທິດທາງທີ່ຖືກຕ້ອງ (ຈາກ Anode ຫາ Cathode). ຊຸດນີ້ປະກອບມີ LED ສີດຽວ ແລະ LED RGB.
 		#ວິທີການເຮັດວຽກ ໄຟຟ້າຕ້ອງໄຫຼຈາກຂາ Anode (+) (ຂາຍາວ) ຫາ Cathode (-) (ຂາສັ້ນ). ຕ້ອງໃຊ້ Resistor (ເຊັ່ນ: 220Ω) ໃນຊຸດເພື່ອຈຳກັດກະແສໄຟຟ້າ ແລະ ປ້ອງກັນບໍ່ໃຫ້ LED ໄໝ້.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການຄວບຄຸມຄວາມສະຫວ່າງຂອງ LED ດ້ວຍ PWM (Fade LED)
-		![[Pasted image 20251029001734.png]]
+![[LEDS.png]](./images/LEDs.png)
 9. RGB module
 		#RGBmodule ແມ່ນໂມດູນທີ່ບັນຈຸ LED RGB, ເຊິ່ງສາມາດຜະລິດແສງສີຕ່າງໆໄດ້ໂດຍການປະສົມຄວາມເຂັ້ມຂອງສີແດງ (Red), ສີຂຽວ (Green), ແລະ ສີຟ້າ (Blue).
 		#ວິທີການເຮັດວຽກ ໂດຍການໃຊ້ Pulse Width Modulation (PWM) ຈາກ Arduino ເພື່ອຄວບຄຸມລະດັບຄວາມເຂັ້ມແສງຂອງ LED ແຕ່ລະສີ (R, G, B), ມັນສາມາດຜະລິດສີທີ່ແຕກຕ່າງກັນໄດ້ຫຼາຍລ້ານສີ. ມັນມີຕົວຕ້ານທານທີ່ຈຳກັດກະແສໄຟຟ້າໃນຕົວ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການສະແດງການປ່ຽນແປງສີແບບສຸ່ມ (Rainbow Fading Effect)
-		![[Pasted image 20251029001930.png]]
+![[RGB_module.png]](./images/RGB_module.png)
 10. Resistors (220Ω, 1kΩ, 10kΩ)
 		#Resistor  ແມ່ນອຸປະກອນເອເລັກໂຕຣນິກສອງຂາທີ່ອອກແບບມາເພື່ອຕ້ານການໄຫຼຂອງກະແສໄຟຟ້າໃນວົງຈອນ. ຫົວໜ່ວຍວັດແທກແມ່ນ Ohm ($\Omega$).
 		#ວິທີການເຮັດວຽກ ຖືກໃຊ້ສຳລັບ: 1) ການຈຳກັດກະແສໄຟຟ້າ (ເພື່ອປ້ອງກັນອຸປະກອນເຊັ່ນ: LED) ແລະ 2) ການໃຊ້ງານ Pull-up/Pull-down (ເພື່ອຮັບປະກັນວ່າສັນຍານດິຈິຕອລມີສະຖານະທີ່ຊັດເຈນ ເມື່ອບໍ່ມີການປ້ອນຂໍ້ມູນ).
@@ -62,119 +62,119 @@
 			- 10kΩ (10,000Ω) ຄ່າຕ້ານທານສູງ (ຕ້ານທານກະແສໄຟຟ້າຫຼາຍ) ວົງຈອນແບ່ງແຮງດັນ (Voltage Divider): ໃຊ້ສ້າງແຮງດັນອ້າງອີງ (Reference Voltage). ວົງຈອນກອງ (Filters): ໃຊ້ຮ່ວມກັບ Capacitor ເພື່ອກອງສັນຍານຄວາມຖີ່ສູງ ຫຼື ຄວາມຖີ່ຕ່ຳອອກ. ຕົວຕ້ານທານໃນ Feedback Loop: ໃຊ້ໃນວົງຈອນເຄື່ອງຂະຫຍາຍສຽງ (Amplifiers) ເພື່ອກຳນົດອັດຕາຂະຫຍາຍ (Gain).
 			
 		#ຕົວຢ່າງການນໍາໃຊ້: ການໃຊ້ Resistor 10kΩ ເປັນ Pull-down ກັບ Push Button
-		![[Screenshot 2025-11-23 215914.png]]
-		![[Pasted image 20251123220202.png]]
+![[Resistors_2.png]](./images/Resistors_2.png)
+![[Resistors_1.png]](./images/Resistors_1.png)
 
 11. **Push Buttons** (x4 with Lids) 
 		#PushButton ແມ່ນສະວິດຊົ່ວຄາວທີ່ປິດ ຫຼື ເປີດວົງຈອນໃນຂະນະທີ່ມັນຖືກກົດ ແລະ ກັບຄືນສູ່ສະຖານະເດີມເມື່ອຖືກປ່ອຍ.
 		#ວິທີການເຮັດວຽກ ມັນປ່ຽນແປງສະຖານະຂອງການປ້ອນຂໍ້ມູນດິຈິຕອລຂອງ Arduino ຈາກ LOW ເປັນ HIGH (ຫຼື ໃນທາງກັບກັນ). ປຸ່ມກົດຕ້ອງຖືກໃຊ້ຮ່ວມກັບ Resistor (Pull-up ຫຼື Pull-down) ເພື່ອກຳນົດສະຖານະທີ່ຊັດເຈນ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການຄວບຄຸມ LED ໂດຍການກົດປຸ່ມ (Button-Controlled LED)
-		![[Pasted image 20251029002212.png]]
+![[Push_Buttons.png]](./images/Push_Buttons.png)
 12. **Potentiometer** (5kΩ) 
 		#Potentiometer ແມ່ນຕົວຕ້ານທານທີ່ປັບໄດ້ສາມຂາ, ໂດຍປົກກະຕິແລ້ວແມ່ນ 5kΩ. ມັນຖືກໃຊ້ເພື່ອສ້າງຕົວແບ່ງໂວນທີ່ສາມາດປັບໄດ້.
 		#ວິທີການເຮັດວຽກ ເມື່ອເຊື່ອມຕໍ່ກັບ 5V ແລະ GND, ການໝູນລູກບິດຈະປ່ຽນແປງໂວນສົ່ງອອກ (0V ຫາ 5V) ຢູ່ປາຍກາງ (wiper). Arduino ອ່ານໂວນທີ່ປ່ຽນແປງນີ້ຜ່ານ Pin ອະນາລັອກ (Analog Pin) ເພື່ອໃຊ້ເປັນຄ່າປ້ອນຂໍ້ມູນ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການໃຊ້ Potentiometer ເພື່ອຄວບຄຸມຄວາມໄວຂອງ Servo Motor
-		![[Pasted image 20251029002339.png]]
+![[Potentiometer.png]](./images/Potentiometer.png)
 13. Active Buzzer 
 		#ActiveBuzzer ແມ່ນລຳໂພງ piezoelectric ຂະໜາດນ້ອຍທີ່ມີວົງຈອນກຳເນີດສຽງ (oscillator) ໃນຕົວ.
 		#ວິທີການເຮັດວຽກ ມັນຜະລິດສຽງ (tone) ທີ່ຄວາມຖີ່ຄົງທີ່ເມື່ອໄດ້ຮັບໂວນ DC ທີ່ຖືກຕ້ອງ (ເຊັ່ນ: 5V). ມັນງ່າຍຕໍ່ການໃຊ້ງານ, ເພາະມັນພຽງແຕ່ຕ້ອງການສັນຍານ HIGH/LOW ຈາກ Arduino ເພື່ອເປີດ/ປິດສຽງ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການສ້າງສຽງເຕືອນ (Simple Alarm Sound)
-		![[Pasted image 20251029144912.png]]
+![[Active_Buzzer.png]](./images/Active_Buzzer.png)
 		
 14. Passive Buzzer
 		#PassiveBuzzer ແມ່ນລຳໂພງ piezoelectric ຂະໜາດນ້ອຍທີ່ບໍ່ມີວົງຈອນກຳເນີດສຽງໃນຕົວ. ມັນຕ້ອງການສັນຍານຄື້ນສີ່ຫຼ່ຽມ (square wave) ຈາກພາຍນອກເພື່ອສ້າງສຽງ.
 		#ວິທີການເຮັດວຽກ Arduino ຕ້ອງໃຊ້ຟັງຊັນ `tone()` ເພື່ອສົ່ງສັນຍານຄື້ນສີ່ຫຼ່ຽມທີ່ຄວາມຖີ່ທີ່ແຕກຕ່າງກັນໄປຫາ Passive Buzzer. ນີ້ອະນຸຍາດໃຫ້ມັນສາມາດຜະລິດສຽງ (tones) ທີ່ຫຼາກຫຼາຍ ແລະ ສາມາດຫຼິ້ນເພງໄດ້.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການຫຼິ້ນເພງງ່າຍໆ (Playing Simple Tunes/Music)
-		![[Pasted image 20251029145651.png]]
+![[Passive_Buzzer.png]](./images/Passive_Buzzer.png)
 #### Displays & Output 
 
 15. **16x2 LCD display** 
 		#16x2LCDDisplay ແມ່ນຈໍສະແດງຜົນຂໍ້ຄວາມທີ່ສາມາດສະແດງຕົວອັກສອນໄດ້ 16 ຕົວອັກສອນໃນ 2 ແຖວ. ມັນໃຊ້ controller HD44780.
 		#ວິທີການເຮັດວຽກ ມັນສື່ສານກັບ Arduino ໂດຍໃຊ້ໂໝດ 4-bit ຫຼື 8-bit (ເຊິ່ງຕ້ອງການສາຍໄຟຫຼາຍສາຍ). ມັນຮັບຂໍ້ມູນຈາກ Arduino ເປັນລະຫັດ ASCII ແລະ ປ່ຽນເປັນ pixels ເທິງຈໍ. ຄວາມຄົມຊັດຕ້ອງໄດ້ຮັບການປັບໂດຍໃຊ້ Potentiometer.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການສະແດງຄ່າອຸນຫະພູມທີ່ອ່ານໄດ້ຈາກ LM35
-		![[Pasted image 20251029142436.png]]
+![[16x2_LCD_display.png]](./images/16x2_LCD_display.png)
 16. **I2C Serial Adapter board module** 
 		#I2CSerialAdaptermodule ແມ່ນໂມດູນທີ່ຕິດຕັ້ງຢູ່ດ້ານຫຼັງຂອງ 16x2 LCD ເພື່ອແປງການສື່ສານແບບ Parallel ຂອງ LCD ໃຫ້ເປັນການສື່ສານແບບ I2C Serial.
 		#ວິທີການເຮັດວຽກ ມັນໃຊ້ໂປຣໂຕຄໍ I2C, ເຊິ່ງຕ້ອງການພຽງແຕ່ **ສອງສາຍ** (SDA/SCL) ບວກກັບ VCC ແລະ GND ເພື່ອຄວບຄຸມ LCD. ນີ້ຊ່ວຍປະຢັດ Pin ດິຈິຕອລສ່ວນໃຫຍ່ຂອງ Arduino ໄວ້ສຳລັບການໃຊ້ງານອື່ນ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການເຊື່ອມຕໍ່ LCD 16x2 ກັບ Arduino ໂດຍໃຊ້ພຽງ 4 ສາຍ
-		![[Pasted image 20251029142602.png]]
+![[I2C_Serial_Adapter_board_module.png]](./images/I2C_Serial_Adapter_board_module.png)
 17. **7-segment display** (Common Cathode +) 
 		#7-segmentdisplay  ແມ່ນຮູບແບບການສະແດງຜົນເອເລັກໂຕຣນິກທີ່ໃຊ້ LED ເຈັດອັນ (segments) ເພື່ອສະແດງຕົວເລກ 0 ຫາ 9. ແບບ **Common Cathode** ແມ່ນແບບທີ່ຂາ Cathode ທັງໝົດຖືກເຊື່ອມຕໍ່ກັບ GND.
 		#ວິທີການເຮັດວຽກ ເພື່ອກວດພົບ segment ໃດນຶ່ງ, ທ່ານຕ້ອງສົ່ງສັນຍານ **HIGH (5V)** ໄປຫາ Pin Anode ຂອງ segment ນັ້ນ. ຕ້ອງໃຊ້ Resistor (ເຊັ່ນ: 220Ω) ສຳລັບແຕ່ລະ segment.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການສະແດງເຄື່ອງນັບແບບງ່າຍດາຍ (Simple Numeric Counter)
-		
+![[7_Segment_Display.png]](./images/7_Segment_Display.jpg)	
 18. **4-Digit 7-Segment Display** 
 		#4-Digit7-SegmentDisplay ແມ່ນການລວມຂອງ 7-segment display ສີ່ອັນເຂົ້າກັນເພື່ອສະແດງຕົວເລກສີ່ຕົວ. ມັນມັກຈະມາພ້ອມກັບ Chip Driver (ເຊັ່ນ: TM1637) ທີ່ເຮັດໃຫ້ການເຊື່ອມຕໍ່ງ່າຍຂຶ້ນ.
 		#ວິທີການເຮັດວຽກ ມັນໃຊ້ເຕັກນິກ **Multiplexing**. Arduino ເປີດ/ປິດແຕ່ລະຕົວເລກຢ່າງວ່ອງໄວໃນລຳດັບ, ເຮັດໃຫ້ຕາຂອງມະນຸດຮັບຮູ້ວ່າພວກມັນສະແດງຜົນພ້ອມກັນ. Driver Chip ຈະຄວບຄຸມຂະບວນການນີ້.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການສ້າງໂມງດິຈິຕອລ (Digital Clock)
-		![[Pasted image 20251029144136.png]]
+![[4_Digit_7_Segment_Display.png]](./images/4_Digit_7_Segment_Display.png)
 19. **8x8 Dot Matrix display** 
 		#8x8DotMatrixDisplay ແມ່ນຈໍສະແດງຜົນທີ່ປະກອບດ້ວຍໄຟ LED 64 ດອກ ທີ່ຈັດຢູ່ໃນຮູບແບບຕາຂ່າຍ 8 ແຖວ x 8 ຖັນ.
 		#ວິທີການເຮັດວຽກ ມັນໃຊ້ເຕັກນິກ **Multiplexing** ແລະ ມັກຈະມາພ້ອມກັບ Chip Driver ເຊັ່ນ **MAX7219** ເຊິ່ງຫຼຸດການເຊື່ອມຕໍ່ລົງເຫຼືອພຽງ 3 ສາຍ (SPI protocol: Data, Clock, Chip Select). Driver ຈະຈັດການການເປີດ/ປິດ LED ຢ່າງວ່ອງໄວ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການສະແດງຂໍ້ຄວາມແບບເລື່ອນໄດ້ (Scrolling Text Marquee)
-		![[Pasted image 20251029144353.png]]
+![[8x8_Dot_Matrix_display.png]](./images/8x8_Dot_Matrix_display.png)
 #### Sensors & Input Modules 
 
 20. **Temperature and humidity sensor (DHT11)** 
 		#DHT11 ແມ່ນເຊັນເຊີທີ່ໃຊ້ສຳລັບວັດແທກ **ອຸນຫະພູມ** ແລະ **ຄວາມຊຸ່ມຊື່ນ** ຂອງອາກາດ.
 		#ວິທີການເຮັດວຽກ ມັນໃຊ້ການສື່ສານແບບ serial ດິຈິຕອລສາຍດຽວ (one-wire digital serial) ເພື່ອສົ່ງຂໍ້ມູນໄປຫາ Arduino. ມັນລວມ Thermistor ສຳລັບອຸນຫະພູມ ແລະ ອົງປະກອບທີ່ຮັບຮູ້ຄວາມຊຸ່ມຊື່ນ. ຕ້ອງການຫ້ອງສະໝຸດ DHT ພິເສດເພື່ອອ່ານຂໍ້ມູນ.
 		#ຕົວຢ່າງການນໍາໃຊ້:** ການສ້າງສະຖານີດິນຟ້າອາກາດພື້ນຖານ (Basic Weather Station)
-		![[Pasted image 20251029004606.png]]
+![[Temperature_and_humidity_sensor(DHT11).png]](./images/Temperature_and_humidity_sensor%20(DHT11).png)
 21. **LM35 Temperature Sensor** 
 		#LM35 ແມ່ນເຊັນເຊີອຸນຫະພູມທີ່ສົ່ງອອກ **ສັນຍານໂວນອະນາລັອກ** ທີ່ເປັນເສັ້ນຊື່ຕາມອຸນຫະພູມໃນອົງສາ Celsius.
 		#ວິທີການເຮັດວຽກ ມັນຜະລິດໂວນສົ່ງອອກ $10mV$ ຕໍ່ $1^\circ C$ (ຕົວຢ່າງ: $25^\circ C = 250mV$). Arduino ອ່ານໂວນນີ້ຜ່ານ Pin ອະນາລັອກ (Analog Pin) ແລະ ປ່ຽນຄ່າເປັນອຸນຫະພູມທີ່ແທ້ຈິງໃນລະຫັດ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການວັດແທກອຸນຫະພູມຫ້ອງ ແລະ ການສະແດງຜົນເທິງ Serial Monitor
-		![[Pasted image 20251029004521.png]]
+![[LM35_Temperature_Sensor.png]](./images/LM35_Temperature_Sensor.png)
 22. **Tilt sensor (x2)** 
 		#TiltSensor ແມ່ນສະວິດທີ່ໃຊ້ວັດຖຸໂລຫະທີ່ເຄື່ອນທີ່ໄດ້ (ເຊັ່ນ: ລູກປັດ) ຢູ່ພາຍໃນເພື່ອກວດພົບການປ່ຽນແປງຂອງມຸມ ຫຼື ຄວາມອຽງ.
 		#ວິທີການເຮັດວຽກ ມັນເຮັດວຽກເປັນສະວິດດິຈິຕອລ. ເມື່ອເຊັນເຊີຖືກອຽງໄປໃນມຸມທີ່ແນ່ນອນ, ວັດຖຸໂລຫະພາຍໃນຈະຕິດຕໍ່ກັບສອງຂົ້ວໄຟຟ້າ, ປິດວົງຈອນ ແລະ ສົ່ງສັນຍານ Output ດິຈິຕອລ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການເຮັດໃຫ້ LED ຕິດເມື່ອເຊັນເຊີຖືກອຽງ (Tilt-Activated Light)
-		![[Pasted image 20251029145833.png]]
+![[Tilt_sensor_(x2).png]](./images/Tilt_sensor_(x2).png)
 23. **Photoresistor (LDRs x3)** 
 		#Photoresistor (LDR) ແມ່ນຕົວຕ້ານທານທີ່ຄ່າຄວາມຕ້ານທານປ່ຽນແປງໄປຕາມຄວາມເຂັ້ມຂອງແສງທີ່ຕົກໃສ່ມັນ.
 		#ວິທີການເຮັດວຽກ ເມື່ອແສງສະຫວ່າງເພີ່ມຂຶ້ນ, ຄວາມຕ້ານທານຂອງ LDR ຈະ **ຫຼຸດລົງ**. ມັນຖືກໃຊ້ໃນວົງຈອນ Voltage Divider ຮ່ວມກັບ Resistor ຄ່າຄົງທີ່ (ເຊັ່ນ: 10kΩ) ເພື່ອປ່ຽນຄວາມເຂັ້ມແສງໃຫ້ເປັນຄ່າໂວນອະນາລັອກທີ່ Arduino ສາມາດອ່ານໄດ້.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການສ້າງລະບົບໄຟເປີດ/ປິດອັດຕະໂນມັດໃນເວລາກາງຄືນ (Automatic Night Light)
-		![[Pasted image 20251029004334.png]]
+![[Photoresistor.png]](./images/Photoresistor_(LDRs%20x3).png)
 24. **PIR sensor** 
 		#PIRSensor (Passive Infrared Sensor) ແມ່ນເຊັນເຊີທີ່ໃຊ້ສຳລັບກວດພົບການເຄື່ອນໄຫວຂອງມະນຸດ ຫຼື ສັດໃຫຍ່ໂດຍການວັດແທກການປ່ຽນແປງຂອງລະດັບລັງສີອິນຟຣາເຣດ (IR).
 		#ວິທີການເຮັດວຽກ ຖ້າວັດຖຸທີ່ອົບອຸ່ນ (ເຊັ່ນ: ມະນຸດ) ເຄື່ອນທີ່ຜ່ານພື້ນທີ່ການກວດພົບ, ມັນຈະເຮັດໃຫ້ເຊັນເຊີປ່ຽນສະຖານະ Output ຈາກ LOW ເປັນ **HIGH**. ມັນສົ່ງສັນຍານ Output ແບບດິຈິຕອລ (Motion Detected / No Motion).
 		#ຕົວຢ່າງການນໍາໃຊ້: ການສ້າງລະບົບເຕືອນການບຸກລຸກ (Intruder Alarm System)
-		![[Pasted image 20251029004206.png]]
+![[PIR_sensor.png]](./images/PIR_sensor.png)
 25. **Ultrasonic module** 
 		#UltrasonicModule (HC-SR04) ແມ່ນເຊັນເຊີໄລຍະຫ່າງທີ່ໃຊ້ຄື້ນສຽງຄວາມຖີ່ສູງ (ultrasound) ເພື່ອວັດແທກໄລຍະຫ່າງເຖິງວັດຖຸ.
 		#ວິທີການເຮັດວຽກ ມັນສົ່ງຄື້ນສຽງອອກໄປຈາກ Trig Pin ແລະ ຮັບຄື້ນທີ່ສະທ້ອນກັບຄືນມາໂດຍ Echo Pin. Arduino ຄິດໄລ່ໄລຍະຫ່າງໂດຍອີງໃສ່ເວລາທີ່ຄື້ນສຽງໃຊ້ໃນການເດີນທາງໄປ-ກັບ (Time of Flight).
 		#ຕົວຢ່າງການນໍາໃຊ້: ການສ້າງເຊັນເຊີຖອຍຫຼັງສຳລັບລົດຫຸ່ນຍົນ (Parking Sensor)
-		![[Pasted image 20251029004128.png]]
+![[Ultrasonic_module.png]](./images/Ultrasonic_module.png)
 26. **Sound sensor** 
 		#SoundSensor ແມ່ນໂມດູນທີ່ໃຊ້ໄມໂຄຣໂຟນ (microphone) ເພື່ອກວດພົບຄວາມເຂັ້ມຂອງສຽງໃນສະພາບແວດລ້ອມ.
 		#ວິທີການເຮັດວຽກ ມັນມີທັງ Output ແບບ **ດິຈິຕອລ (DO)** (HIGH/LOW ເມື່ອສຽງເກີນຂີດຈຳກັດ) ແລະ Output ແບບ **ອະນາລັອກ (AO)** (ຄ່າໂວນທີ່ປ່ຽນແປງຕາມຄວາມເຂັ້ມຂອງສຽງ). ທ່ານສາມາດປັບຄວາມອ່ອນໄຫວຂອງ Output ດິຈິຕອລໄດ້.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການສ້າງສະວິດທີ່ຄວບຄຸມດ້ວຍການຕົບມື (Clap-Activated Switch)
-		![[Pasted image 20251029004048.png]]
+![[Sound_sensor.png]](./images/Sound_sensor.png)
 27. **Water sensor** 
 		#WaterSensor ແມ່ນໂມດູນທີ່ໃຊ້ສຳລັບກວດພົບລະດັບ ຫຼື ການມີຢູ່ຂອງນ້ຳໂດຍອີງໃສ່ການນໍາໄຟຟ້າຂອງມັນ.
 		#ວິທີການເຮັດວຽກ ມັນມີແຖບໂລຫະທີ່ຕິດກັນທີ່ໃຊ້ເປັນຕົວນໍາ. ເມື່ອນ້ຳສໍາຜັດກັບແຖບເຫຼົ່ານີ້, ມັນຈະເຮັດໃຫ້ເກີດການເຊື່ອມຕໍ່ໄຟຟ້າ. ມັນສົ່ງ Output ອະນາລັອກ (AO) ທີ່ປ່ຽນແປງຕາມປະລິມານຂອງແຖບທີ່ຖືກແຊ່ນ້ຳ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການສ້າງລະບົບເຕືອນການຮົ່ວໄຫຼຂອງນ້ຳ (Water Leak Detection Alarm)
-		![[Pasted image 20251029003945.png]]
+![[Water_sensor.png]](./images/Water_sensor.png)
 28. **Flame sensor** 
 		#FlameSensor ແມ່ນເຊັນເຊີທີ່ອອກແບບມາເພື່ອກວດພົບຄື້ນແສງອິນຟຣາເຣດ (IR) ທີ່ປ່ອຍອອກມາຈາກໄຟ.
 		#ວິທີການເຮັດວຽກ ມັນໃຊ້ photodiode ທີ່ລະອຽດອ່ອນຕໍ່ແສງ IR. ເມື່ອແປວໄຟຖືກກວດພົບ, ມັນຈະສົ່ງ Output ດິຈິຕອລ LOW ຫຼື Output ອະນາລັອກ (AO) ທີ່ສະແດງຄວາມເຂັ້ມຂອງແປວໄຟ. ມັນມີ Potentiometer ເພື່ອປັບຄວາມອ່ອນໄຫວ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການສ້າງລະບົບເຕືອນໄພໄໝ້ (Fire Alarm System)
-		![[Pasted image 20251029151008.png]]
+![[Flame_sensor.png]](./images/Flame_sensor.png)
 29. **RFID module** 
 		#RFIDModule (ເຊັ່ນ: RC522) ແມ່ນອຸປະກອນທີ່ອະນຸຍາດໃຫ້ Arduino ສາມາດອ່ານ ແລະ ຂຽນຂໍ້ມູນໄປຫາ RFID Tags ໂດຍໃຊ້ Radio-Frequency Identification (RFID).
 		#ວິທີການເຮັດວຽກ ໂມດູນສ້າງສະໜາມແມ່ເຫຼັກໄຟຟ້າ. ເມື່ອ Tag ເຂົ້າສູ່ສະໜາມນີ້, Tag ຈະໄດ້ຮັບພະລັງງານ ແລະ ສົ່ງຂໍ້ມູນທີ່ເປັນເອກະລັກຂອງມັນກັບຄືນໄປຫາໂມດູນ. ໂມດູນສື່ສານກັບ Arduino ໂດຍໃຊ້ໂປຣໂຕຄໍ SPI.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການສ້າງລະບົບລັອກປະຕູທີ່ຄວບຄຸມດ້ວຍ RFID (RFID Access Control)
-		![[Pasted image 20251029151057.png]]
+![[RFID_module.png]](./images/RFID_module.png)
 30. **RFID tag** 
 		#RFIDTag (ບັດ ຫຼື key fob) ແມ່ນອຸປະກອນເກັບຂໍ້ມູນຕົວຕັ້ງຕົວຕີ (Passive) ທີ່ບັນຈຸ chip ແລະ ເສົາອາກາດ (antenna) ທີ່ໃຊ້ໃນລະບົບ RFID.
 		#ວິທີການເຮັດວຽກ ມັນບໍ່ມີແບັດເຕີຣີ. ມັນໄດ້ຮັບພະລັງງານຈາກສະໜາມແມ່ເຫຼັກໄຟຟ້າທີ່ປ່ອຍອອກມາໂດຍ RFID Module. ເມື່ອມີພະລັງງານ, ມັນສົ່ງຂໍ້ມູນທີ່ເປັນເອກະລັກ (UID) ກັບຄືນໄປຫາໂມດູນເພື່ອການກວດສອບ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການເປີດ/ປິດໄຟຕາມການກວດສອບບັດທີ່ຖືກຕ້ອງ (Key Card Authentication)
-		![[Pasted image 20251029151202.png]]
+![[RFID_tag2.png]](./images/RFID_tag.png)
 31. **Infrared receiver** 
 		#InfraredReceiver (IR Receiver) ແມ່ນສ່ວນປະກອບທີ່ໃຊ້ສຳລັບຮັບຄື້ນແສງອິນຟຣາເຣດ (IR) ທີ່ຖືກເຂົ້າລະຫັດ (encoded) ຈາກຣີໂໝດຄວບຄຸມ (remote control).
 		#ວິທີການເຮັດວຽກ ມັນມີ Photodiode ທີ່ຖືກປັບໃຫ້ກົງກັບຄວາມຖີ່ຂອງສັນຍານ IR ທີ່ມາຈາກຣີໂໝດ (38kHz). ມັນແປງສັນຍານ IR ທີ່ໄດ້ຮັບໃຫ້ເປັນສັນຍານດິຈິຕອລທີ່ Arduino ສາມາດຖອດລະຫັດເພື່ອລະບຸປຸ່ມໃດທີ່ຖືກກົດ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການຄວບຄຸມ LED ໂດຍໃຊ້ຣີໂໝດ TV (Remote Control of LEDs)
-		![[Pasted image 20251029151344.png]]
+![[Infrared_receiver.png]](./images/Infrared_receiver.png)
 
 #### Remote & Control 
 
@@ -182,22 +182,22 @@
 		#InfraredRemoteControl (IR Remote) ແມ່ນເຄື່ອງສົ່ງສັນຍານມືຖືທີ່ໃຊ້ສຳລັບການຄວບຄຸມອຸປະກອນຕ່າງໆ (ເຊັ່ນ: Arduino) ຈາກໄລຍະໄກໂດຍການສົ່ງຄື້ນແສງອິນຟຣາເຣດ.
 		#ວິທີການເຮັດວຽກ ເມື່ອປຸ່ມຖືກກົດ, ມັນຈະສົ່ງສັນຍານ IR ທີ່ເປັນເອກະລັກ (Command Code) ຜ່ານໄຟ LED IR ໄປຫາ IR Receiver. ມັນໃຊ້ຄູ່ກັບ IR Receiver ເພື່ອເຮັດວຽກ ແລະ ສື່ສານ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການຄວບຄຸມອົງປະກອບໂດຍໃຊ້ຣີໂໝດ (Remote Control of Components)
-		![[Pasted image 20251029003537.png]]
+![[Infrared_remote_control.png]](./images/Infrared_remote_control.png)
 33. **Joystick module** 
 		#JoystickModule ແມ່ນອຸປະກອນປ້ອນຂໍ້ມູນທີ່ໃຊ້ອ່ານການເຄື່ອນໄຫວສອງແກນ (X ແລະ Y) ແລະ ສະຖານະປຸ່ມກົດ (Button State).
 		#ວິທີການເຮັດວຽກ ມັນໃຊ້ສອງ Potentiometer ສຳລັບແກນ X ແລະ Y ເພື່ອປ່ຽນການເຄື່ອນໄຫວໃຫ້ເປັນຄ່າໂວນອະນາລັອກ (0-5V). ມັນຍັງມີປຸ່ມກົດທີ່ຢູ່ໃນແກນຕັ້ງທີ່ສົ່ງ Output ດິຈິຕອລເມື່ອຖືກກົດລົງ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການຄວບຄຸມທິດທາງຂອງ Servo Motor ສອງອັນ (Two-Axis Motor Control)
-		![[Pasted image 20251029003427.png]]
+![[Joystick_module.png]](./images/Joystick_module.png)
 34. **4x4 Matrix Keyboard Module** 
 		#4x4MatrixKeyboardModul ແມ່ນແປ້ນພິມຂະໜາດນ້ອຍທີ່ມີ 16 ປຸ່ມ (4 ແຖວ ແລະ 4 ຖັນ) ທີ່ໃຊ້ສຳລັບການປ້ອນຂໍ້ມູນດິຈິຕອລ.
 		#ວິທີການເຮັດວຽກຂອງມັນ ມັນໃຊ້ເຕັກນິກ **Matrix Keypad Scanning** ເພື່ອຫຼຸດຈຳນວນ Pin ທີ່ຕ້ອງການ (ໃຊ້ພຽງ 8 Pin ແທນທີ່ຈະເປັນ 16). Arduino ຈະສະແກນແຕ່ລະຖັນ, ແລະ ອ່ານແຖວໃດທີ່ມີການກົດປຸ່ມ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການສ້າງລະບົບປ້ອນລະຫັດລັບ (Keypad Combination Lock)
-		![[Pasted image 20251029003324.png]]
+![[4x4_Matrix_Keyboard_Module.png]](./images/4x4_Matrix_Keyboard_Module.png)
 35. **Relay module** 
 		#RelayModule ແມ່ນສະວິດຄວບຄຸມໄຟຟ້າທີ່ອະນຸຍາດໃຫ້ວົງຈອນໂວນຕ່ຳ (ເຊັ່ນ: 5V ຂອງ Arduino) ສາມາດຄວບຄຸມວົງຈອນໂວນສູງ (ເຊັ່ນ: 120V/240V AC).
 		#ວິທີການເຮັດວຽກ ເມື່ອ Arduino ສົ່ງສັນຍານ LOW/HIGH ໄປຫາໂມດູນ, ມັນຈະກະຕຸ້ນວົງຈອນແມ່ເຫຼັກທີ່ປ່ຽນສະຖານະສະວິດພາຍໃນ (Normally Open/Normally Closed) ເພື່ອເປີດ ຫຼື ປິດວົງຈອນໂວນສູງ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການເປີດ/ປິດໂຄມໄຟທີ່ໃຊ້ໄຟບ້ານໂດຍໃຊ້ Arduino (AC Light Control)
-		![[Pasted image 20251029003248.png]]
+![[Relay_module.png]](./images/Relay_module.png)
 
 #### Motors & Drivers 
 
@@ -205,29 +205,29 @@
 		#ServoMotor ແມ່ນມໍເຕີ DC ທີ່ອະນຸຍາດໃຫ້ມີການຄວບຄຸມມຸມທີ່ຊັດເຈນ (ປົກກະຕິແລ້ວແມ່ນ $0^\circ$ ຫາ $180^\circ$).
 		#ວິທີການເຮັດວຽກ ມັນຖືກຄວບຄຸມໂດຍໃຊ້ສັນຍານ PWM (Pulse Width Modulation) ຈາກ Arduino. ຄວາມກວ້າງຂອງ Pulse ກໍານົດມຸມທີ່ Shaft ຂອງມໍເຕີຄວນໝູນໄປ. ມັນມີວົງຈອນ Feedback ເພື່ອຮັກສາມຸມທີ່ກຳນົດໄວ້.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການເປີດ/ປິດປະຕູອັດຕະໂນມັດ (Automated Door Opener)
-		![[Pasted image 20251029003204.png]]
+![[Servo_motor.png]](./images/Servo_motor.png)
 37. **Stepper motor** 
 		#StepperMotor ແມ່ນມໍເຕີ DC ທີ່ໝູນເປັນບາດກ້າວທີ່ຊັດເຈນ (Fixed Increments) ແທນທີ່ຈະໝູນຕໍ່ເນື່ອງ. ມັນດີສຳລັບໂຄງການທີ່ຕ້ອງການຕໍາແໜ່ງທີ່ຊັດເຈນ.
 		#ວິທີການເຮັດວຽກ ໂດຍການສະໜອງພະລັງງານໃຫ້ກັບ Coils ພາຍໃນມໍເຕີຕາມລໍາດັບທີ່ຖືກຕ້ອງ (Stepping Sequence), ມໍເຕີຈະໝູນໄປເທື່ອລະບາດກ້າວ. ມັນຕ້ອງການ Chip Driver ພິເສດເພື່ອຄວບຄຸມກະແສໄຟຟ້າ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການຄວບຄຸມແຂນຫຸ່ນຍົນ (Precise Robotic Arm Movement)
-		![[Pasted image 20251029003004.png]]
+![[Stepper_motor.png]](./images/Stepper_motor.png)
 38. **Stepper motor driver board** 
 		#StepperMotorDriverBoard (ເຊັ່ນ: ULN2003 Driver) ແມ່ນແຜງວົງຈອນທີ່ຈຳເປັນສຳລັບການຄວບຄຸມ Stepper Motor ໂວນສູງ/ກະແສໄຟຟ້າສູງ.
 		#ວິທີການເຮັດວຽກ ມັນເຮັດໜ້າທີ່ເປັນໂຕເຊື່ອມຕໍ່ລະຫວ່າງ Arduino (ສົ່ງສັນຍານໂວນຕ່ຳ) ແລະ Stepper Motor (ຕ້ອງການກະແສໄຟຟ້າສູງ). Chip Driver ຈະຂະຫຍາຍສັນຍານຂອງ Arduino ໃຫ້ເປັນກະແສໄຟຟ້າທີ່ສູງຂຶ້ນເພື່ອສະຫຼັບ Coils ຂອງມໍເຕີ.
 		#ຕົວຢ່າງການນໍາໃຊ້:** ການໝູນ Stepper Motor ໄປທາງໜ້າ ແລະ ຫຼັງ (Forward and Reverse Stepping)
-		![[Pasted image 20251029002903.png]]
+![[Stepper_motor_driver_board.png]](./images/Stepper_motor_driver_board.png)
 #### ICs & Modules 
 
 39. **Real-time Clock Module DS1302** 
 		#Real-TimeClock Module (RTC) DS1302 ແມ່ນໂມດູນທີ່ຕິດຕາມເວລາປັດຈຸບັນ (ປີ, ເດືອນ, ວັນທີ, ຊົ່ວໂມງ) ຢ່າງຖືກຕ້ອງ, ໂດຍມີແບັດເຕີຣີສໍາຮອງເພື່ອຮັກສາເວລາແມ້ວ່າໄຟຈະດັບ.
 		#ວິທີການເຮັດວຽກ ມັນສື່ສານກັບ Arduino ໂດຍໃຊ້ໂປຣໂຕຄໍ 3-Wire Serial Interface (CLK, DAT, RST). ໂມດູນມີ Crystal Oscillator ຂອງມັນເອງທີ່ເຮັດໃຫ້ມັນສາມາດນັບເວລາໄດ້ຢ່າງຊັດເຈນ.
 		#ຕົວຢ່າງການນໍາໃຊ້: ການສ້າງໂມງທີ່ມີການສະແດງວັນທີ (Displaying Date and Time on LCD)
-		![[Pasted image 20251029002817.png]]
+![[Real_time_Clock_Module_DS1302.png]](./images/Real_time_Clock_Module_DS1302.png)
 40. **74HC595 Chip** 
 		#74HC595Chip ແມ່ນ **Shift Register** ທີ່ໃຊ້ສຳລັບການຂະຫຍາຍ Output ຂອງ Arduino. ມັນສາມາດປ່ຽນສັນຍານ Serial (ຂໍ້ຄວາມຕໍ່ເນື່ອງ) ເປັນສັນຍານ Parallel (ຫຼາຍ Output ພ້ອມກັນ).
 		#ວິທີການເຮັດວຽກ ມັນອະນຸຍາດໃຫ້ Arduino ຄວບຄຸມເຖິງ **8 Output** ໂດຍໃຊ້ພຽງແຕ່ **3 Pin** ດິຈິຕອລ. Arduino ສົ່ງຂໍ້ມູນ 8 bits ຢ່າງຕໍ່ເນື່ອງໄປຫາ Chip, ແລະ Chip ຈະເກັບຂໍ້ມູນນີ້ໄວ້ ແລະ ປ່ອຍມັນອອກມາພ້ອມກັນ (Parallel).
 		#ຕົວຢ່າງການນໍາໃຊ້: ການຄວບຄຸມໄຟ LED 8 ດອກໂດຍໃຊ້ພຽງ 3 Pin ຂອງ Arduino
-		![[Pasted image 20251029002743.png]]
+![[74HC595_Chip.png]](./images/74HC595_Chip.png)
 
 
 
